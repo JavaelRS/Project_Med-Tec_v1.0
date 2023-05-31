@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(0.25turn, #578d6f, #628a74, #578d6f);
+    overflow-x: hidden;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    border: 1.7px solid;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.drop-down {
+    padding: 5px;
+}
+  
+.drop {
+    display: flex;
+    background-color: transparent;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    color: #446e58;
+}   
+
+.drop:hover {
+    color: #5a9477;
+}
+  
+.drop option:first-child {
+    display: none;
+}
+  
+.drop:focus {
+    cursor: pointer;
+}
+  
+.drop::-ms-expand {
+    display: none;
+}
+
+.user {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user a {
+    font-size: 25px;
+    color: rgb(70, 102, 139);
+}
+
+.user a:hover {
+    color: rgb(81, 118, 161);
+    text-decoration: underline;
+}
+
+div.back {
+    font-size: 30px;
+    padding: 20px;
+}
+
+div.back a {
+    color: rgb(225, 225, 225);
+}
+
+div.back a:hover {
+    text-decoration: underline;
+    color: rgb(247, 247, 247);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 50px;
+    color: #f0f8ff;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.patient-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #f5f5dc;
+}
+
+.patient-card p {
+    margin: 5px 0;
+    font-size: 30px;
+}
+
+.patient-card img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}

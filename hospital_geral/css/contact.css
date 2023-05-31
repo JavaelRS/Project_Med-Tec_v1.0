@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(0.25turn, #578d6f, #628a74, #578d6f);
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    align-items: center;
+    border: 1.7px solid;
+}
+
+section {
+    padding: 30px;
+}
+
+div.logo {
+    padding: 2px;
+}
+
+div.menu {
+    padding: 5px;
+}
+
+div.title {
+    font-size: 35px;
+}
+
+div.menu a {
+    color: rgb(53, 82, 109);
+    font-size: 25px;
+    margin: 15px;
+}
+
+div.menu a:hover {
+    text-decoration: underline;
+    color: rgb(66, 102, 136);
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: rgb(247, 247, 247);
+    justify-content: center;
+    align-items: center;
+}
+
+div.appot input {
+    font-size: 20px;
+}
+
+div.name {
+    color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.surname {
+    color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.email {
+    color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.sex {
+    color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.rg {
+    color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.cpf {
+    color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.birthdate {
+    color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.textM {
+    color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+div.textM textarea {
+    font-size: 20px;
+    resize: none;
+}
+
+div.button {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+div.button input {
+    display: flex;
+    width: 400px;
+    background-color: #4545ad;
+    color: #e5e5e5;
+    justify-content: center;
+}
+
+div.button input:hover {
+    cursor: pointer;
+    background-color: #39398e;
+}

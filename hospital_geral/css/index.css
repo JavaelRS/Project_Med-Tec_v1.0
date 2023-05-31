@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(0.25turn, #578d6f, #628a74, #578d6f);
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    align-items: center;
+    border: 1.7px solid;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+div.logo {
+    padding: 2px;
+}
+
+div.menu {
+    padding: 5px;
+}
+
+div.menu a {
+    color: rgb(53, 82, 109);
+    font-size: 25px;
+    margin: 15px;
+}
+
+div.menu a:hover {
+    text-decoration: underline;
+    color: rgb(66, 102, 136);
+}
+
+div.title1 {
+    font-size: 30px;
+    color: rgb(247, 247, 247);
+}
+
+div.text1 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(247, 247, 247);
+}
+
+div.text2 {
+    margin-top: 50px;
+    font-size: 25px;
+    color: rgb(247, 247, 247);
+    align-self: center;
+}
+
+div.photo {
+    padding: 70px;
+    display: flex;
+    align-self: center;
+}
+
+div.photo img {
+    width: 900px;
+    height: 700px;
+    box-shadow: rgb(46, 46, 46) 10px 10px 10px;
+    border-radius: 10px;
+}
+
+div.blocks {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 20px;
+}
+
+div.blockA {
+    background-color: #3d634e;
+    box-shadow: rgb(46, 46, 46) 10px 10px 10px;
+    border-radius: 10px;
+}
+
+div.blockA img {
+    padding: 35px;
+}
+
+div.textA {
+    color: rgb(247, 247, 247);
+    font-size: 30px;
+    padding: 15px;
+    max-width: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+div.blockB {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #3d634e;
+    box-shadow: rgb(46, 46, 46) 10px 10px 10px;
+    border-radius: 10px;
+}
+
+div.blockB img {
+    padding: 35px;
+}
+
+div.textB {
+    color: rgb(247, 247, 247);
+    font-size: 30px;
+    padding: 15px;
+    max-width: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+div.blockC {
+    background-color: #3d634e;
+    box-shadow: rgb(46, 46, 46) 10px 10px 10px;
+    border-radius: 10px;
+}
+
+div.blockC img {
+    padding: 35px;
+}
+
+div.textC {
+    color: rgb(247, 247, 247);
+    font-size: 30px;
+    padding: 15px;
+    max-width: 300px;
+    align-content: center;
+    text-align: center;
+}
