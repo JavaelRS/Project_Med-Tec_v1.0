@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(70, 102, 139);
+    overflow-x: hidden;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(247, 247, 247);
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+div.image {
+    display: flex;
+    padding: 60px;
+}
+
+div.title {
+    padding: 20px;
+    font-size: 45px;
+    color:rgb(247, 247, 247);
+}
+
+div.text {
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(247, 247, 247);
+}
+
+div.main-text {
+    padding: 20px;
+}
+
+div.image img {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    padding: 0;
+    box-shadow: rgb(56, 56, 56) 10px 10px 10px;
+    border-radius: 5px;
+}
+
+div.logo {
+    margin-left: 95px;
+}
+
+div.logo img {
+    display: flex;
+    height: 150px;
+    width: 230px;
+}
+
+div.menu-login {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-right: 70px;
+}
+
+div.menu-login a {
+    text-decoration: none;
+    color: rgb(70, 102, 139);
+    font-weight: bold;
+}
+
+div.menu-login a:hover {
+    color: rgb(81, 118, 161);
+    text-decoration: underline;
+}
+
+div.menu {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+div.menu a {
+    padding: 0;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+div.login a {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+div.first {
+    display: flex;
+    flex-direction: row;
+}
+
+div.second {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+div.images {
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    justify-content: space-between;
+}
+
+div.images img {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    box-shadow: rgb(56, 56, 56) 10px 10px 10px;
+    border-radius: 5px;
+}
+
+div.image1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+div.image2 {
+    display: flex;
+    margin-left: 30px;
+}
+
+div.title2 {
+    font-size: 32px;
+    color:rgb(247, 247, 247);
+}
+
+div.text2 {
+    font-size: 30px;
+    color: rgb(247, 247, 247);
+}

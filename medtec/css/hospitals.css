@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(70, 102, 139);
+    overflow-x: hidden;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(247, 247, 247);
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+div.title {
+    padding: 40px;
+    font-size: 32px;
+    color:rgb(247, 247, 247);
+}
+
+div.logo {
+    margin-left: 95px;
+}
+
+div.logo img {
+    display: flex;
+    height: 150px;
+    width: 230px;
+}
+
+div.menu-login {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-right: 70px;
+}
+
+div.menu-login a {
+    text-decoration: none;
+    color: rgb(70, 102, 139);
+    font-weight: bold;
+}
+
+div.menu-login a:hover {
+    color: rgb(81, 118, 161);
+    text-decoration: underline;
+}
+
+div.menu {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+div.menu a {
+    padding: 0;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+div.login a {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+div.systems {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 40px;
+}
+
+div.systems a {
+    color: rgb(206, 206, 206);
+}
+
+div.systems a:hover {
+    text-decoration: underline;
+    color: rgb(247, 247, 247);
+}

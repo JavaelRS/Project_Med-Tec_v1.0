@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(70, 102, 139);
+    justify-content: center;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    box-shadow: rgb(56, 56, 56) 10px 10px 10px;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+}
+
+div.logo {
+    padding: 20px;
+}
+
+div.logo img {
+    display: flex;
+    margin-left: 55px;
+    width: 230px;
+    height: 130px;
+}
+
+div.username {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+div.username label {
+    font-size: 22px;
+}
+
+div.username input {
+    font-size: 18px;
+}
+
+div.password {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+div.password label {
+    font-size: 22px;
+}
+
+div.password input {
+    font-size: 18px;
+}
+
+div.button {
+    display: flex;
+    padding: 20px;
+    margin-left: 115px;
+}
+
+div.button input {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+div.back a {
+    display: flex;
+    margin-bottom: 10px;
+    color: rgb(52, 76, 104);
+}
+
+div.back a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
